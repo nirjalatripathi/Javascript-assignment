@@ -23,6 +23,7 @@ console.log ("value of pi is ", PI);
 // If we try to reassign the value of PI again it causes an error because we can't reassign a const.  
 
 
-//Q.4.
+//Q.5.
 let favouriteColor = "White";
 console.log ("My favourite Color is", favouriteColor);
+

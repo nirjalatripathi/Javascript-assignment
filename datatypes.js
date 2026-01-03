@@ -1,0 +1,46 @@
+//Q.1. 
+let string = "Nirjala";
+console.log("Value:", string);
+console.log("Type:", typeof string);
+let number = 10;
+console.log("Value:", number);
+console.log("Type:", typeof number);
+let bool = true;
+console.log("Value:", bool);
+console.log("Type:", typeof bool);
+let Undefined;
+console.log("Value:", undefined);
+console.log("Type:", typeof undefined);
+
+//Q.2. 
+let num= 4;
+let str= "3";
+console.log (num+str);
+//Output will be 43  because JS converts number into string and adds them. 
+
+
+//Q.3.
+let fruits = ["Apple","Banana","Mango","Orange","Grapes"];
+console.log("First fruit:", fruits[0]);
+console.log("Last fruit:", fruits[fruits.length - 1]);
+
+
+//Q.4.
+let student = {
+    name: "Nirjala",
+    age:19,
+    grade: "A"
+};
+console.log  ("student's name is", student.name);
+console.log  ("student's age is", student.age);
+console.log  ("student's grade is", student.grade);
+
+//Q.5. 
+let numbers = [10, 20, 30, 40]; // Array because it is inside []
+let city = "Kathmandu";  //  Not an array, just a string
+console.log(Array.isArray(numbers)); 
+console.log(Array.isArray(city)); 
+
+
+
+
